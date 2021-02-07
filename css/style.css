@@ -1,0 +1,77 @@
+header,
+section,
+footer {
+  border: 1px solid;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: rgba(236,236,236,1);
+}
+
+.nav-logo {
+  color: var(--black-logo);
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo1 {
+  color: var(--blue-text);
+}
+
+.nav-studio,
+.nav-portfolio,
+.nav-contacts {
+  color: var(--black-text);
+}
+
+.nav-mail,
+.nav-tel {
+  color: var(--gray-text);
+}
+
+.nav-studio:hover,
+.nav-studio:focus,
+.nav-mail:hover,
+.nav-mail:focus {
+  color: var(--blue-text);
+}
+
+.section-main {
+  color: var(--white-text);
+}
+
+.main-btn {
+  color: var(--white-text);   
+}
+
+.title {
+  color: var(--black-text);
+}
+
+.text {
+  color: var(--grey-text);
+}
+
+.section-main {
+  background-color: rgba(47,48,58,1);
+}
+
+.team {
+  background-color: rgba(245,244,250,1);
+}
+
+.footer {
+  background-color: rgba(47,48,58,1);
+}
+
+.footer-mail,
+.footer-tel {
+  color: var(--white-text-op06);
+}
+
+.footer-address {
+  color: var(--white-text);
+}
