@@ -8,6 +8,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* header  */
 .header {
   background-color: rgba(236,236,236,1);
 }
@@ -15,32 +16,38 @@ body {
 .nav-logo {
   color: var(--black-logo);
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
-.logo1 {
+.text-blue {
   color: var(--blue-text);
 }
 
-.nav-studio,
-.nav-portfolio,
-.nav-contacts {
+.nav-item {
   color: var(--black-text);
+  font-weight: 500;
 }
 
-.nav-mail,
-.nav-tel {
+.nav-item-grey {
   color: var(--gray-text);
+  font-weight: 500;
 }
 
-.nav-studio:hover,
-.nav-studio:focus,
-.nav-mail:hover,
-.nav-mail:focus {
+.nav-item:hover,
+.nav-item:focus,
+.nav-item-grey:hover,
+.nav-item-grey:focus {
   color: var(--blue-text);
 }
-
+ 
+/* main  */
 .section-main {
+  background-color: rgba(47,48,58,1);
   color: var(--white-text);
+}
+
+.main-title {
+  font-weight: 900;
 }
 
 .main-btn {
@@ -55,14 +62,11 @@ body {
   color: var(--grey-text);
 }
 
-.section-main {
-  background-color: rgba(47,48,58,1);
-}
-
 .team {
   background-color: rgba(245,244,250,1);
 }
 
+/* footer */
 .footer {
   background-color: rgba(47,48,58,1);
 }
